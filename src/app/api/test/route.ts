@@ -5,3 +5,7 @@ import { NextResponse } from 'next/server'
 export const POST = async (req: Request) => {
   return NextResponse.json({ foo: 'bar' })
 }
+
+export const GET = async (req: Request) => {
+  return NextResponse.json({ foo: 'bar' })
+}
